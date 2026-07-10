@@ -69,7 +69,7 @@ WHERE name LIKE '%es%';
 SELECT id, name, email FROM member
 WHERE email = 'test@test.com' AND password = 'test';
 ```
-![task3-8-7](task3-8-7.png)
+![task3-7-8](task3-7-8.png)
 
 ### Task 3.8
 ```sql
@@ -77,7 +77,7 @@ UPDATE member
 SET name = 'test2'
 WHERE email = 'test@test.com';
 ```
-![task3-8-7](task3-8-7.png)
+![task3-7-8](task3-7-8.png)
 
 ## Task 4: SQL Aggregation Functions
 
