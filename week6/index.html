@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style.css">
+        <title>會員系統</title>
+    </head>
+    <body>
+        <div class="card">
+            <div class="card-header">歡迎光臨，請註冊登入系統</div>
+
+            <form class="form" action="/signup" method="POST">
+                <h2>註冊帳號</h2>
+                <label>姓名 <input type="text" name="name" required></label>
+                <label>信箱 <input type="text" name="email" required></label>
+                <label>密碼 <input type="password" name="password" required></label>
+                <button type="submit">註冊</button>
+            </form>
+
+            <form class="form" action="/login" method="POST">
+                <h2>登入系統</h2>
+                <label>信箱 <input type="text" name="email" required></label>
+                <label>密碼 <input type="password" name="password" required></label>
+                <button type="submit">登入</button>
+            </form>
+        </div>
+    </body>
+</html>
